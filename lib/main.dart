@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
     backgroundColor: Colors.blue,
@@ -17,10 +18,34 @@ class MyApp extends StatelessWidget {
         Icons.shopping_cart,
       ),],
     ),
-        body: ListTile(
-          leading: Icon(Icons.shop),
-          title: Text("Apples"),
+        body: ListView(
+          children: [
+            ListTile(
+              leading: Icon(Icons.shop),
+              title: Text("Headphones"),
 
+            ),
+            ListTile(
+              leading: Icon(Icons.shop),
+              title: Text("Keyboard"),
+
+            ),
+            ListTile(
+              leading: Icon(Icons.shop),
+              title: Text("Mouse"),
+
+            ),
+            ListTile(
+              leading: Icon(Icons.shop),
+              title: Text("Pendrive"),
+
+            ),
+            ListTile(
+              leading: Icon(Icons.shop),
+              title: Text("Sd card"),
+
+            )
+          ],
         )
       ),
 
