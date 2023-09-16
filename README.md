@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+Screen shot of the project
+
+![WhatsApp Image 2023-09-16 at 23 51 43](https://github.com/smsakib/fluttermod6livtest/assets/27827232/4ab50daa-fcbb-40ac-bf55-6fe6bdb1f6fc)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
